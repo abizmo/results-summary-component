@@ -3,9 +3,65 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      Your Result 76 of 100 Great You scored higher than 65% of the people who
-      have taken these tests. Summary Reaction 80 / 100 Memory 92 / 100 Verbal
-      61 / 100 Visual 72 / 100 Continue
+      <main>
+        <header>
+          <h1>Your Result</h1>
+          <div>
+            <h2>
+              76<span>of 100</span>
+            </h2>
+          </div>
+          <div>
+            <p>Great</p>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </header>
+        <div>
+          <h3>Summary</h3>
+          <ul>
+            <li>
+              <div>
+                <img src="#" alt="" />
+                <p>Reaction</p>
+                <p>
+                  <span>80</span>/100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="#" alt="" />
+                <p>Memory</p>
+                <p>
+                  <span>92</span>/100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="#" alt="" />
+                <p>Verbal</p>
+                <p>
+                  <span>61</span>/100
+                </p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="#" alt="" />
+                <p>Visual</p>
+                <p>
+                  <span>72</span>/100
+                </p>
+              </div>
+            </li>
+          </ul>
+          <button type="button">Continue</button>
+        </div>
+      </main>
       <footer className="text-xs text-center">
         Challenge by{' '}
         <a
