@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .attribution {
   font-size: 11px;
   text-align: center;
