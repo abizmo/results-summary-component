@@ -26,6 +26,9 @@ module.exports = {
       '3xl': ['4.5rem', '1'],
     },
     extend: {
+      gridTemplateRows: {
+        root: '1fr min-content',
+      },
       letterSpacing: {
         wide: '0.01em',
       },
