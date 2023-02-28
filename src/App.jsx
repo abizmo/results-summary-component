@@ -2,18 +2,19 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <header>
-          <h1>Your Result</h1>
-          <div>
-            <h2>
-              76<span>of 100</span>
-            </h2>
+    <div className='h-screen grid grid-rows-root'>
+      <main className="md:container md:mx-auto">
+        <header className='bg-gradient-to-b from-slate-blue to-royal-blue text-neutral-100 text-center rounded-b-3xl px-16 py-7'>
+          <h1 className='mb-6 tracking-wide'>Your Result</h1>
+          <div className='bg-gradient-to-b from-violet-blue to-persian-blue w-36 h-36 mx-auto rounded-full py-8 mb-8'>
+            <p className='text-2xl font-extrabold mb-3'>
+              76
+            </p>
+            <p className='text-sm'>of 100</p>
           </div>
           <div>
-            <p>Great</p>
-            <p>
+            <p className='text-lg font-bold mb-4'>Great</p>
+            <p className='text-sm leading-tight'>
               You scored higher than 65% of the people who have taken these
               tests.
             </p>
