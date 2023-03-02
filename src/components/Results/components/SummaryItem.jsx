@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const container = cva(
-  'flex gap-3 items-center text-sm p-4 rounded-xl bg-opacity-5',
+  'flex gap-3 items-center text-sm md:text-base p-4 rounded-xl bg-opacity-5',
   {
     variants: {
       color: {
