@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ResultsHeader({ children }) {
   return (
-    <header className="bg-gradient-to-b from-slate-blue to-royal-blue text-neutral-100 text-center rounded-b-3xl md:rounded-3xl px-16 py-10">
+    <header className="bg-gradient-to-b from-slate-blue to-royal-blue text-neutral-100 text-center rounded-b-3xl md:rounded-3xl px-16 py-7 md:py-10">
       {children}
     </header>
   );
