@@ -11,7 +11,7 @@ import {
 } from './components';
 
 function Results({ children }) {
-  return <div className="md:container md:mx-auto md:grid md:grid-cols-2 md:place-self-center md:rounded-3xl md:overflow-hidden md:shadow-xl">{children}</div>;
+  return <div className="md:container md:mx-auto h-full md:h-auto md:grid md:grid-cols-2 md:rounded-3xl md:overflow-hidden md:shadow-xl">{children}</div>;
 }
 
 Results.propTypes = {

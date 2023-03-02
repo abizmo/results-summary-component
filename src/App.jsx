@@ -12,7 +12,7 @@ function App() {
     categories.length;
 
   return (
-    <div className="h-screen grid grid-rows-root">
+    <div className="h-screen grid grid-rows-root place-items-center">
       <Results>
         <Results.Header>
           <Results.Score max={100}>{totalScore.toFixed(0)}</Results.Score>
