@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 function ResultsReview({ children, title }) {
   return (
     <div>
-      <p className="text-lg font-bold mb-4">{title}</p>
-      <p className="text-sm leading-tight">{children}</p>
+      <p className="text-lg md:text-xl font-bold mb-4">{title}</p>
+      <p className="text-sm md:text-base leading-tight">{children}</p>
     </div>
   );
 }
