@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function ResultsSummary({ children }) {
   return (
     <>
-      <h3 className="font-bold">Summary</h3>
+      <h3 className="font-bold md:text-lg">Summary</h3>
       <ul>{children}</ul>
     </>
   );

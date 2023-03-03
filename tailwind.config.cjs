@@ -25,6 +25,9 @@ module.exports = {
       '2xl': ['3.5rem', '1'],
       '3xl': ['4.5rem', '1'],
     },
+    screens: {
+      md: '768px',
+    },
     extend: {
       gridTemplateRows: {
         root: '1fr min-content',
